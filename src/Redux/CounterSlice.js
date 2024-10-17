@@ -22,7 +22,7 @@ export const counterSlice = createSlice({
         },
 
         changeRange: (state,action)=>{
-            state.value+=actio.payload
+            state.value+=action.payload
         }
     }
 })
